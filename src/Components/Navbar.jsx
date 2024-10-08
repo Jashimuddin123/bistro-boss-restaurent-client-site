@@ -8,22 +8,17 @@ const Navbar = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li className="mr-2 font-semibold text-md">
-            <NavLink to="/allTouristSpot">CONTACT us</NavLink>
+            <NavLink to="/menu">Our Menu</NavLink>
           </li>
+         
           <li className="mr-2 font-semibold text-md">
-            <NavLink to="/register">DASHBOARD</NavLink>
-          </li>
-          <li className="mr-2 font-semibold text-md">
-            <NavLink to="/addTourist">Our Shop</NavLink>
-          </li>
-          <li className="mr-2 font-semibold text-md">
-            <NavLink to="/mylist">SIGN OUT</NavLink>
+            <NavLink to="/odered">Ordered Food</NavLink>
           </li>
         </>
       );
     return (
         <div>
-            <div className="navbar text-white border z-10 bg-black border-red-700 ">
+            <div className="navbar text-white z-10 bg-black bg-opacity-90  ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

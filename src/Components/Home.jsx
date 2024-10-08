@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Footer from "../Router/Footer/Footer";
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
@@ -11,6 +12,11 @@ import Testimonials from "./Testimonials";
 const Home = () => {
     return (
         <div>
+                <Helmet>
+           
+           <title>Home Page</title>
+        
+       </Helmet>
             {/* <Navbar></Navbar> */}
             <Banner></Banner>
             <SectionTitle></SectionTitle>
